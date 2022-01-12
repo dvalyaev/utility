@@ -1,0 +1,29 @@
+CREATE or alter FUNCTION wmwhse1.UtcToLocal (@DATE DATETIME) RETURNS datetime AS
+BEGIN
+    RETURN(SELECT DATEADD(mi, DATEDIFF(mi, GETUTCDATE(), GETDATE()), @DATE));
+END;
+
+CREATE or alter FUNCTION wmwhse1.LocalToUtc (@DATE DATETIME) RETURNS datetime AS
+BEGIN
+    RETURN(SELECT DATEADD(mi, DATEDIFF(mi, GETDATE(), GETUTCDATE()), @DATE));
+END;
+
+CREATE or alter FUNCTION wmwhse1.LocalDayBeginInUtc (@DAYDIFF int) RETURNS datetime AS
+BEGIN
+    RETURN(select wmwhse1.LocalToUtc(cast(wmwhse1.UtcToLocal(getutcdate() + @DAYDIFF) as date)));
+END;
+
+
+/*
+    Таймстемп
+*/
+CREATE or alter FUNCTION wmwhse1.UtcDayWithTime (
+    @DAYDIFF int,     -- смещение в днях относительно текущей даты
+    @TIME varchar(20) -- время
+) RETURNS datetime AS
+BEGIN
+    RETURN format(getutcdate() + @DAYDIFF, 'yyyy-MM-dd ' + @TIME);
+END
+
+
+

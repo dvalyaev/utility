@@ -1,0 +1,16 @@
+spring:
+  application.name: xls-sql-converter
+  transaction.default-timeout: 1m
+  main.banner-mode: off
+  datasource:
+    type: org.springframework.jdbc.datasource.SingleConnectionDataSource
+    url: jdbc:sqlserver://localhost:1433;database=SCPRD
+    username: sa
+    password: yourStrong(!)Password
+
+logging:
+  config:
+  level:
+    app: debug
+    org.springframework.jdbc.core: info
+    root: info
