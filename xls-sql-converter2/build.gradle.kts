@@ -1,15 +1,15 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    id("org.springframework.boot") version "2.6.0"
+    id("org.springframework.boot") version "2.6.2"
     id("io.spring.dependency-management") version "1.0.11.RELEASE"
-    kotlin("jvm") version "1.6.0"
-    kotlin("plugin.spring") version "1.6.0"
+    kotlin("jvm") version "1.6.10"
+    kotlin("plugin.spring") version "1.6.10"
 }
 
 group = "utility"
 version = "1.0-SNAPSHOT"
-java.sourceCompatibility = JavaVersion.VERSION_16
+java.sourceCompatibility = JavaVersion.VERSION_17
 
 
 repositories {
@@ -22,9 +22,9 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    implementation("org.apache.poi:poi-ooxml:5.0.0")
+    implementation("org.apache.poi:poi-ooxml:5.1.0")
 
-    runtimeOnly("com.microsoft.sqlserver:mssql-jdbc:9.4.0.jre16")
+    runtimeOnly("com.microsoft.sqlserver:mssql-jdbc:9.5.0.jre17-preview")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 
