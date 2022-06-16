@@ -4,6 +4,7 @@ class Field(val rawValue: String, quoted: Boolean) {
     companion object {
         fun of(value: Int): Field = of(value.toString())
         fun of(value: Double): Field = of(value.toString())
+        fun of(value: Boolean): Field = of(if (value) 1 else 0)
         fun of(value: String): Field = Field(value, false)
         fun quoted(value: String): Field = Field(value, true)
     }

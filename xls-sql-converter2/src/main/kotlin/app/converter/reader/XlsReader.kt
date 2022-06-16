@@ -109,7 +109,8 @@ class XlsReader(val path: String) {
                 val dbl: Double = cell.numericCellValue
                 if (dbl == dbl.toInt().toDouble()) Field.of(dbl.toInt()) else Field.of(dbl)
             }
-            else -> throw UnsupportedOperationException("Unsupported cell type: " + cell.cellType)
+            CellType.BOOLEAN -> Field.of(cell.booleanCellValue)
+            else -> throw UnsupportedOperationException("Unsupported cell type: ${cell.cellType}. ${cell.sheet.sheetName} ${cell.address}")
         }
     }
 }
