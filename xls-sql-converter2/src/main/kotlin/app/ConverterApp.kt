@@ -18,9 +18,14 @@ class ConverterApp(
 
     val base = "$baseDir/base.xls"
     val packing_1x20 = "$baseDir/packing_1x20-2.xls"
+    val packing_1x200 = "$baseDir/packing_1x200.xls"
+    val packing_1x1000 = "$baseDir/packing_1x1000.xls"
+    val packing_1x5000 = "$baseDir/packing_1x5000.xls"
     val packing_10x1 = "$baseDir/packing_10x1.xls"
+    val packing_5x2 = "$baseDir/packing_5x2.xls"
     val packing_withdrawal = "$baseDir/packing_withdrawal.xls"
     val packing_single_10 = "$baseDir/packing_single_10.xls"
+    val packing_oversize_1 = "$baseDir/packing_oversize_1.xls" // КГТ волна
     val packing_nonsort_10 = "$baseDir/packing_nonsort_10.xls"
     val packing_nonpack = "$baseDir/packing_nonpack.xls"
     val packing_nonsort_oversize = "$baseDir/packing_nonsort_oversize.xls"
@@ -44,12 +49,13 @@ class ConverterApp(
     val outbound23 = "$baseDir/outbound23.xls"
     val withdrawals = "$baseDir/withdrawals.xls"
     val split_buildings = "$baseDir/split_buildings.xls"
-    val cons_order_3ord_2cont = "$baseDir/cons_order_3ord_2cont.xls"
+    val cons_line_2lines = "$baseDir/cons_line_2lines.xls"
+    val cons_station_3ord_2cont = "$baseDir/cons_station_3ord_2cont.xls"
 
     override fun run(args: Array<String>) {
         converter
             .read(base)
-            .read(cons_order_3ord_2cont)
+            .read(dropping_1x4)
             .applyToDatabase()
 
         fixDbService.fixDb()

@@ -70,7 +70,7 @@ class XlsReader(val path: String) {
         val headers = mutableListOf<Header>()
         for (c in columnsRow.firstCellNum..columnsRow.lastCellNum) {
             val columnCell = columnsRow.getCell(c)?.stringCellValue?.takeIf { it.isNotBlank() } ?: break
-            val info = infoRow.getCell(c)?.stringCellValue ?: ""
+            val info = infoRow?.getCell(c)?.stringCellValue ?: ""
             headers += Header(
                 name = columnCell,
                 isDelete = INFO_DEL in info,

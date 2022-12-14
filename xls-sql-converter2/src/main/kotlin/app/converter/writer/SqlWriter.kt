@@ -64,9 +64,11 @@ class SqlWriter : DbDataWriter() {
             return listOf()
         }
         val columnNames = table.headers.joinToString { it.name }
-        val values = table.rows.joinToString(",\n") { row ->
-            row.fields.joinToString(", ", "   (", ")") { it.sqlValue }
+        return table.rows.chunked(1000).flatMap { rows ->
+            val values = rows.joinToString(",\n") { row ->
+                row.fields.joinToString(", ", "   (", ")") { it.sqlValue }
+            }
+            listOf("INSERT INTO ${table.fullName} ($columnNames) VALUES \n$values;\n")
         }
-        return listOf("INSERT INTO ${table.fullName} ($columnNames) VALUES \n$values;\n")
     }
 }
