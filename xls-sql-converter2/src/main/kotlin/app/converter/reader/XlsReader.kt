@@ -56,7 +56,7 @@ class XlsReader(val path: String) {
                 Table(
                     row.field(0).rawValue,
                     row.field(1).rawValue,
-                    listOf(Header("dummy", isDelete = false, isTruncate = true, isUpdate = false)),
+                    listOf(Header("dummy", isTruncate = true)),
                     listOf()
                 )
             }.asReversed()

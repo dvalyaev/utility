@@ -26,4 +26,10 @@ BEGIN
 END
 
 
+CREATE or alter FUNCTION wmwhse1.UtcAtHour (
+    @HOURDIFF int     -- смещение в часах относительно текущего часа
+) RETURNS datetime AS
+BEGIN
+    return format(dateadd(hh, @HOURDIFF, getutcdate()), 'yyyy-MM-dd HH:00:00')
+END
 

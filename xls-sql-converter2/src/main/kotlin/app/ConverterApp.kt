@@ -51,11 +51,12 @@ class ConverterApp(
     val split_buildings = "$baseDir/split_buildings.xls"
     val cons_line_2lines = "$baseDir/cons_line_2lines.xls"
     val cons_station_3ord_2cont = "$baseDir/cons_station_3ord_2cont.xls"
+    val dark = "$baseDir/dark.xls"
 
     override fun run(args: Array<String>) {
         converter
             .read(base)
-            .read(dropping_1x4)
+            .read(dark)
             .applyToDatabase()
 
         fixDbService.fixDb()
