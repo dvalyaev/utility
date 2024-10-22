@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: server
+  server:
+    port: 9999
+    netty:
+      access-logger:
+        enabled: true
+        log-format: '%h %l %u %t "%r" %s %b %T'
+netty:
+  default:
+    allocator:
+      max-order: 3

@@ -68,7 +68,18 @@ class SqlWriter : DbDataWriter() {
             val values = rows.joinToString(",\n") { row ->
                 row.fields.joinToString(", ", "   (", ")") { it.sqlValue }
             }
-            listOf("INSERT INTO ${table.fullName} ($columnNames) VALUES \n$values;\n")
+            val isIdentityInsert = table.headers.any { it.isIdentityInsert }
+            val insert = "INSERT INTO ${table.fullName} ($columnNames) VALUES \n$values"
+            val sql = if (isIdentityInsert) {
+                """|;SET IDENTITY_INSERT ${table.fullName} ON
+                   |;$insert
+                   |;SET IDENTITY_INSERT ${table.fullName} OFF;
+                   |
+                """.trimMargin()
+            } else {
+                "$insert;\n"
+            }
+            listOf(sql)
         }
     }
 }

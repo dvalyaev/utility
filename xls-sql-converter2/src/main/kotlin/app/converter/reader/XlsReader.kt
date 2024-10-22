@@ -20,6 +20,7 @@ class XlsReader(val path: String) {
         private const val INFO_DEL = "del"
         private const val INFO_TRUNCATE = "truncate"
         private const val INFO_UPDATE = "update"
+        private const val INFO_IDENTITY_INSERT = "identity-insert"
         private const val SHEET_TRUNCATE = "TRUNCATE"
     }
 
@@ -75,7 +76,8 @@ class XlsReader(val path: String) {
                 name = columnCell,
                 isDelete = INFO_DEL in info,
                 isTruncate = INFO_TRUNCATE in info,
-                isUpdate = INFO_UPDATE in info
+                isUpdate = INFO_UPDATE in info,
+                isIdentityInsert = INFO_IDENTITY_INSERT in info
             )
         }
         return headers
@@ -114,4 +116,3 @@ class XlsReader(val path: String) {
         }
     }
 }
-

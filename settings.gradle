@@ -1,4 +1,4 @@
 rootProject.name = 'utility'
-include 'xls-sql-converter'
 include 'xls-sql-converter2'
+include 'server'
 

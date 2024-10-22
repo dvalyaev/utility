@@ -35,7 +35,8 @@ class ConverterApp(
     val packing_bbxd = "$baseDir/packing_bbxd.xls"
     val dropping_1x4 = "$baseDir/dropping_1x4.xls"
     val dropping_withdrawals = "$baseDir/dropping_withdrawals.xls"
-    val shipping_1x2x2 = "$baseDir/shipping_1x2x2.xls"
+    val ship_drop_1x2x2 = "$baseDir/ship_drop_1x2x2.xls"
+    val shipment_1 = "$baseDir/shipment_1.xls"
     val receivingCrossdock = "$baseDir/receiving_crossdock.xls"
     val receivingDefault = "$baseDir/receiving_default.xls"
     val cancel_order = "$baseDir/tests/cancel_order.xls"
@@ -56,7 +57,7 @@ class ConverterApp(
     override fun run(args: Array<String>) {
         converter
             .read(base)
-            .read(dark)
+            .read(shipment_1)
             .applyToDatabase()
 
         fixDbService.fixDb()

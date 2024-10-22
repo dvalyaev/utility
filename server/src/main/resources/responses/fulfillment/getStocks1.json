@@ -1,0 +1,784 @@
+{
+  "itemStocksList": [
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 1,
+        "article": "1"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 1,
+        "article": "2"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 1,
+        "article": "3"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 1,
+        "article": "4"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 1,
+        "article": "5"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 1,
+        "article": "6"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 1,
+        "article": "7"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 1,
+        "article": "8"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 1,
+        "article": "9"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 1,
+        "article": "10"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 2,
+        "article": "1"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 2,
+        "article": "2"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 2,
+        "article": "3"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 2,
+        "article": "4"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 2,
+        "article": "5"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 2,
+        "article": "6"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 2,
+        "article": "7"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 2,
+        "article": "8"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 2,
+        "article": "9"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 2,
+        "article": "10"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 3,
+        "article": "1"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 3,
+        "article": "2"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 3,
+        "article": "3"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 3,
+        "article": "4"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 3,
+        "article": "5"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 3,
+        "article": "6"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 3,
+        "article": "7"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 3,
+        "article": "8"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 3,
+        "article": "9"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    },
+    {
+      "unitId": {
+        "id": "",
+        "vendorId": 3,
+        "article": "10"
+      },
+      "warehouseId": {
+        "yandexId": "1",
+        "fulfillmentId": "ff1"
+      },
+      "stocks": [
+        {
+          "type": 10,
+          "count": 100,
+          "updated": "2018-03-29T00:42:00+03:00"
+        },
+        {
+          "type": 4,
+          "count": 1000
+        },
+        {
+          "type": 5,
+          "count": 1000
+        }
+      ]
+    }
+  ]
+}
